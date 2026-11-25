@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.log
+# data, checkpoints and model weights live outside the repo (C:\Users\seddi\darija_data)
+runs/
+prepared/
+downloads/
+models/
+hf_cache/
+*.bin
+*.safetensors
+*.parquet
+*.wav

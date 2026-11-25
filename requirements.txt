@@ -1,0 +1,20 @@
+# Versions this project was developed and tested with (Python 3.14, Windows 11, RTX 5050 8 GB).
+# torch: install the CUDA 12.8 build first, e.g.
+#   pip install torch==2.11.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+transformers==5.16.1
+tokenizers==0.23.1
+peft==0.21.0
+bitsandbytes==0.50.2
+accelerate==1.15.0
+safetensors==0.8.0
+huggingface_hub==1.29.0
+httpx==0.28.1
+numpy==2.4.6
+pyarrow==25.0.1
+soundfile==0.14.0
+soxr==1.1.0
+jiwer==4.0.0
+snac==1.2.1
+einops==0.8.2
+tensorboard==2.21.0
